@@ -295,7 +295,7 @@ a{
 
 }
 
-/*================Serviços================*/
+/*================Skills================*/
 
 .Container{
     width: 100%;
@@ -340,13 +340,16 @@ a{
     background-color: #FFFBFB;
     padding: 50px;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
-    
+}
+.Card-icons{
+    font-size: 80px;
 }
 
 .Card img{
-    width: 75px;
+    width: 50px;
     height: auto;
 }
+
 
 .C-card-2{
     display: flex;
