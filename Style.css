@@ -174,7 +174,9 @@ a{
 @media only screen and (max-width: 414px)  {
 
     /*====================Inicio====================*/
-
+    .Section-1-bg{
+        background-image: url(/img/Untitled\ design.png);
+    }
     .main-title h1{
         font-size: 40px;
         margin-top: 75%;
@@ -243,7 +245,6 @@ a{
 .Sobre-mim p{
     margin-top: 25px;
     font-family: "Inria Sans";
-
 }
 
 .Sobre-mim button{
@@ -256,7 +257,7 @@ a{
     color: #fff;
     border-radius: 50px;
     cursor: pointer;
-    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    box-shadow: 4px 4px 4px #858585 , 4px 4px 4px #858585;
     transition-duration: .9s;
 
 }
@@ -282,14 +283,17 @@ a{
 
     .Sobre-mim p{
         font-size: 12px;
-        width: 500px;
+        width: 414px;
         padding: 15px;
-        text-align: center;
+        text-align: center
+
     }
 
     .Sobre-mim button{
         margin-top: 50px;
         text-align: center;
+        display: flex;
+
     }
 
 
