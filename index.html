@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
+    <link rel="icon" href="/img/iconpage.png">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -19,11 +20,11 @@
 
         <div id="barra-menu">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Sobre mim</a></li>
+                <li><a href=".Section-1-bg">Inicio</a></li>
+                <li><a href="#Sobre">Sobre mim</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#Rodapé">Contato</a></li>
             </ul>
         </div><!--barra-menu-->
      </aside>
@@ -43,7 +44,7 @@
             </div><!--icons-->
         </div><!--main-title-->
     </div><!--Section-1-bg-->
-    <section class="C-sobre" data-aos="fade-up">
+    <section id="Sobre" class="C-sobre" data-aos="fade-up">
         <div class="image">
             <img src="/img/about.jpg">
         </div><!--image-->
@@ -63,7 +64,7 @@
     </section><!---C-sobre-->
 
 
-    <section class="Container" data-aos="fade-up">
+    <section id="Skills" class="Container" data-aos="fade-up">
         <h1>Skills</h1>
         <p>Algumas das Ferramentas Que Tenho Habilidades </p>
         <p>Para se aprofundar mais, baixe meu <a href="/Docs/CV - José Leite de Medeiros Neto.pdf" target="_blank">CV</a></p>
@@ -133,7 +134,7 @@
     </section><!--conatiner-->
 
 
-    <section class="C-projetos" data-aos="fade-up">
+    <section id="Projetos" class="C-projetos" data-aos="fade-up">
         <h1>Meus projetos</h1>
         <p>Alguns projetos que criei. </p>
         <p>Podera consultar todos, em meu <a href="https://github.com/leitejose" target="_blank"> GitHub.</a></p>
@@ -145,8 +146,8 @@
         </div><!--img-projetos-->
     </section><!--C-projetos-->
 
-    <section class="C-rodapé" >
-        <h1>deixe seu email ou entre em contato pelo chat. Logo responderei</h1>
+    <section id="Rodapé" class="C-rodapé" >
+        <h1>Deixe seu email ou entre em contato pelo chat, logo responderei.</h1>
        <form target="_blank" action="https://formsubmit.co/joseleite688@gmail.com" method="POST">
         <input type="email" name="email" id="email" placeholder="Seu email">
         <input type="submit" name="submit" value="Enviar">
